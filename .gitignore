@@ -1,0 +1,4 @@
+/.vscode
+/target
+.claude/settings.local.json
+.env

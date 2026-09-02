@@ -1,0 +1,17 @@
+http_host = "0.0.0.0"
+http_port = 9091
+
+grpc_host = "0.0.0.0"
+grpc_port = 50051
+grpc_concurrency_limit = 128
+
+mediasoup_workers = 2
+mediasoup_log = "debug"
+
+listen_ip_addr = "0.0.0.0"
+# The IP announced to WebRTC clients in ICE candidates. Must be set per deployment
+# (the host's public IP in production). Override via env: ANNOUNCED_IP_ADDR.
+announced_ip_addr = "127.0.0.1"
+max_sessions_per_router = 250
+
+subscribe_channel_capacity = 128
